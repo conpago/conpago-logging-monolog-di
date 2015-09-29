@@ -1,0 +1,30 @@
+{
+	"name": "conpago/conpago-logging-monolog-di",
+	"description": "Conpago framework monolog logging adapter dependency injection module.",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Bartosz Gołek",
+			"email": "bartosz.golek@gmail.com",
+			"homepage": "http://bartosz.golek.biz"
+		}
+	],
+	"require": {
+		"conpago/conpago-di": "dev-master",
+		"conpago/conpago-logging-monolog-contract": "dev-master",
+		"conpago/conpago-logging-monolog": "dev-master"
+	},
+	"require-dev": {
+		"pdepend/pdepend": "*",
+		"phpmd/phpmd": "*",
+		"squizlabs/php_codesniffer": "*",
+		"sebastian/phpcpd": "*",
+		"phpunit/phpunit": "4.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"Conpago\\Logging\\Monolog\\": "src/"
+		}
+	}
+}
