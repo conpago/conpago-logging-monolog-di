@@ -9,6 +9,7 @@
 	namespace Conpago\Logging\Monolog;
 
 
+	use Conpago\DI\IContainer;
 	use Conpago\DI\IContainerBuilder;
 	use Conpago\DI\IModule;
 
